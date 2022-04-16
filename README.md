@@ -13,6 +13,7 @@
 
 services
 ------------
+client - react front end
 query  - called by front-end to retrieve the required back-end data <br />
 event bus - receives events and forwards them to the subscribers (including the one who sent it - stateless ) <br />
 moderation - determines whether comment has been approved/rejected, which will push a status update <br />
